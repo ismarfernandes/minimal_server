@@ -1,21 +1,15 @@
 # MinimalServer
 
-**TODO: Add description**
+## Run
 
-## Installation
+Before running the server, ensure that all dependencies are gotten. Running the follow command:
+```bash
+mix deps.get
+``` 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `minimal_server` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:minimal_server, "~> 0.1.0"}
-  ]
-end
+After getting all dependencies, run the server with the command:
+```bash
+mix run --no-halt
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/minimal_server](https://hexdocs.pm/minimal_server).
-
+And finally, you could see the API running, accessing the API URL: http://localhost:4000/bot
